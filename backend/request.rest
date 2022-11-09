@@ -1,0 +1,40 @@
+GET http://localhost:5000/users
+Content-Type: application/json
+
+{ 
+    "nik": "3175060404990013",
+    "name": "andrialirahmangantengbanget",
+    "email": "andriali0454@gmail.com",
+    "gender": "Male",
+    "tanggallahir": "04041999",
+    "alamat": "jakarta timur",
+    "negara": "Indonesia"
+}
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nik": "3175060404990013",
+    "name": "andrialirahmanganteng",
+    "email": "andriali044@gmail.com",
+    "gender": "Male",
+    "tanggallahir": "04041999",
+    "alamat": "jakarta timur",
+    "negara": "Indonesia"
+}
+
+###
+PATCH  http://localhost:5000/users/631f615dbe5cb6fc2d9e56a0
+Content-Type: application/json
+
+{
+    "nik": "3175060404990013",
+    "name": "andrialiganteng",
+    "email": "andriali044@gmail.com",
+    "gender": "Male",
+    "tanggallahir": "04041999",
+    "alamat": "jakarta timur",
+    "negara": "Indonesia"
+}
