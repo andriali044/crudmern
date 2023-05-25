@@ -30,15 +30,15 @@ const UserList = () => {
         <div className="container">
           <div className="sidareja">
             <div className="field">
-              <label className="label">Nik</label>
+              <label className="label">NIM</label>
               <div className="control">
-                <input type="text" className="input" placeholder="Nik" />
+                <input type="text" className="input" placeholder="NIM" />
               </div>
             </div>
             <div className="fieldname">
               <label className="label">Nama</label>
               <div className="control">
-                <input type="text" className="input" placeholder="Nik" />
+                <input type="text" className="input" placeholder="Name" />
               </div>
             </div>
           </div>
@@ -55,10 +55,10 @@ const UserList = () => {
             </div>
             <div className="tabel">
               <table className="table is-striped is-fullwidth mt-1">
-                <thead>
+                {/* <thead>
                   <tr>
                     <th>No</th>
-                    <th>Nik</th>
+                    <th>Nim</th>
                     <th>Name</th>
                     <th>Email</th>
                     <th>Gender</th>
@@ -67,7 +67,7 @@ const UserList = () => {
                     <th>Negara</th>
                     <th>Actions</th>
                   </tr>
-                </thead>
+                </thead> */}
                 <tbody>
                   {users.map((user, index) => (
                     <tr key={user._id}>
